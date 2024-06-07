@@ -6,7 +6,7 @@ import TextArea from "./TextArea"
 const Form = ({description, setDescription, body, setBody, title, setTitle, formSubmit}) => {
     const { isLoading } = useSelector(state => state.article)
   return (
-    <form onClick={formSubmit} >
+    <form onSubmit={formSubmit} >
     <Input lable={`Title`} state={title} setState={setTitle} />
     <TextArea
         lable={`Add Description`}

@@ -29,6 +29,7 @@ const CreateArticle = () => {
         }
     };
 
+    
     return (
         <div className="text-center">
             <h1 className=" text-[32px] font-semibold mb-3 ">Create Article</h1>
